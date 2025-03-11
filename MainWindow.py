@@ -11,4 +11,4 @@ class MainWindow(QMainWindow):
 
         self.setCentralWidget(central_widget)
 
-        self.setWindowTitle("Ökofest 2025")
+        self.setWindowTitle("Change me!")
