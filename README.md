@@ -1,1 +1,1 @@
-This is a basic template to write your own app with pyqt6 (Python with Qt v6). It may help you with a smooth start. Just implement your own central widget (CentralWidget.py) inheritanced from QCentralWidget. Note the class MainWindow to programm everything within the QMainWindow.
+Für das Ökofest am 27.04.2025 in Herzogenaurach hat das SBS Herzogenaurach ein Vertical Farming System entwickelt und vorgestellt. Hier finden Sie den Quellcode für die Graphische Benutzeroberfläche und die Ansteuerung der Sensoren und Aktoren.
