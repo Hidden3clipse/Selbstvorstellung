@@ -70,24 +70,24 @@ class CentralWidget(QWidget):
             self.animate_title()
             self.show_hobbies()
         elif self.current_page == 2:
+            self.subtitle.setText("Stärken und Schwächen")
+            self.subtitle.setVisible(True)
+            self.texts = ["Stärke: Teamfähigkeit", "Stärke: Lernbereitschaft", "Schwäche: Perfektionismus",
+                          "Schwäche: Ungeduld"]
+            self.text_index = 0
+            self.show_clickable_texts()
+        elif self.current_page == 3:
             self.subtitle.setText("Duales Studium - Cybersecurity")
             self.subtitle.setVisible(True)
             self.texts = ["Technische Grundlagen", "Netzwerksicherheit", "Sicherheitsmanagement",
                           "Digitale Forensik"]
             self.text_index = 0
             self.show_clickable_texts()
-        elif self.current_page == 3:
+        elif self.current_page == 4:
             self.subtitle.setText("Schaeffler mein Arbeitgeber")
             self.subtitle.setVisible(True)
             self.texts = ["Innovative Technologien", "Globale Karrierechancen", "Nachhaltige Mobilität",
                           "Teamarbeit & Kultur", "Persönliche Weiterentwicklung"]
-            self.text_index = 0
-            self.show_clickable_texts()
-        elif self.current_page == 4:
-            self.subtitle.setText("Stärken und Schwächen")
-            self.subtitle.setVisible(True)
-            self.texts = ["Stärke: Teamfähigkeit", "Stärke: Lernbereitschaft", "Schwäche: Perfektionismus",
-                          "Schwäche: Ungeduld"]
             self.text_index = 0
             self.show_clickable_texts()
         else:
